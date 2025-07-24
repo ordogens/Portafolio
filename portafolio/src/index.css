@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   background: #0b0b0b;
-  /* color: #55fffe; texto */
+  
   font-family: "Fira Code", "Source Code Pro", Consolas, "Courier New",
     monospace;
 }
