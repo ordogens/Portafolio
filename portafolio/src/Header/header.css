@@ -1,0 +1,38 @@
+.Header{
+    width: inherit;
+    height: 2.2rem;
+    border-radius: 1px 1px 0px 0px;
+    background-color:  #2D2D2D;
+}
+
+ul{
+    width: 8rem;
+    height: 2rem;
+    /* background-color: #ccc; */
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    padding-left: .7rem;
+
+    & .rojo{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 20px;
+        background-color: #FF5F56;
+    }
+
+    & .amarillo{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 20px;
+        background-color: #ffbc2c;
+    }
+
+    & .verde{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 20px;
+        background-color: #27C93F;
+    }
+}

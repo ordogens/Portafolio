@@ -1,11 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  background: #0b0b0b;
+  /* color: #55fffe; texto */
+  font-family: "Fira Code", "Source Code Pro", Consolas, "Courier New",
+    monospace;
 }
+
+.prompt{ color:#3DDE3E; }     /* > o cursores especiales */
