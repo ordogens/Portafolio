@@ -1,10 +1,102 @@
 .Main {
-  width: 80vw;
-  height: 94vh;
+  width: 40vw;
+  height: 96vh;
   /* background: red; */
+  /* padding-left: 0.4rem; */
+  border: 3px solid #2d2d2d;
+
+  & .h3 {
+    color: #55fffe;
+    font-size: 12px;
+  }
+
+  .presentacion {
+    border-bottom: 1px solid #2d2d2d;
+  }
 }
 
-h3{
-    color: #55fffe;
-    font-size: 16px;
+.presentacion2 {
+  border-bottom: 1px solid #2d2d2d;
+  /* padding-left: 0.3rem; */
+
+  .contactos {
+    display: flex;
+    gap: 0.9rem;
+
+    .email {
+      display: flex;
+      align-items: center;
+      width: 11.4rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 12px;
+    }
+
+    .phone {
+      display: flex;
+      align-items: center;
+      width: 6.9rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 12px;
+    }
+
+    .ubicacion {
+      display: flex;
+      align-items: center;
+      width: 12.2rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 12px;
+    }
+  }
+
+  .botones {
+    padding-top: 7px;
+    display: flex;
+    gap: 1rem;
+
+    .button {
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.7s ease;
+      width: 6rem;
+      height: 2rem;
+      background-color: rgba(0, 255, 255, 0.1);
+      cursor: pointer;
+      text-decoration: none;
+      gap: 6px;
+    }
+
+    .button:hover {
+      background-color: rgba(0, 255, 255, 0.418);
+    }
+  }
+}
+
+.presentacion3{
+  border-bottom: 1px solid #2d2d2d;
+
+  .experience{
+    border-left: 3px solid #55fffe;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.ubicacion:hover {
+  background-color: rgba(0, 255, 255, 0.418);
+}
+
+.phone:hover {
+  background-color: rgba(0, 255, 255, 0.418);
+}
+
+.email:hover {
+  background-color: rgba(0, 255, 255, 0.418);
 }
