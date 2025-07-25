@@ -1,0 +1,80 @@
+.presentacion2 {
+  border-bottom: 1px solid #2d2d2d;
+
+
+  .contactos {
+    display: flex;
+    gap: 0.9rem;
+
+    .email {
+      display: flex;
+      align-items: center;
+      width: 10rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 10px;
+    }
+
+    .phone {
+      display: flex;
+      align-items: center;
+      width: 6.7rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 10px;
+    }
+
+    .ubicacion {
+      display: flex;
+      align-items: center;
+      width: 10.5rem;
+      border: 1px solid aqua;
+      border-radius: 10px;
+      transition: all 0.7s ease;
+      font-size: 10px;
+    }
+  }
+
+  .botones {
+    padding-top: 7px;
+    display: flex;
+    gap: 1rem;
+
+    .button {
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.7s ease;
+      width: 6rem;
+      height: 2rem;
+      background-color: rgba(0, 255, 255, 0.1);
+      cursor: pointer;
+      text-decoration: none;
+      gap: 6px;
+    }
+
+    .button:hover {
+      background-color: rgba(0, 255, 255, 0.418);
+    }
+  }
+
+    & .h3 {
+    color: #55fffe;
+    font-size: 12px;
+  }
+}
+
+.ubicacion:hover {
+  background-color: rgba(0, 255, 255, 0.418);
+}
+
+.phone:hover {
+  background-color: rgba(0, 255, 255, 0.418);
+}
+
+.email:hover {
+  background-color: rgba(0, 255, 255, 0.418);
+}
